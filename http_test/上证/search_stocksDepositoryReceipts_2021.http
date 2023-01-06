@@ -1,0 +1,367 @@
+GET {{hostUri}}/assortment/stock/list/info/company/index.shtml?COMPANY_CODE=600000
+Referer: {{hostUri}}
+
+###
+GET {{queryHostUri}}/commonQuery.do?isPagination=false&sqlId=COMMON_SSE_ZQLX_C&SEC_CODE=600000&_=1672981030567
+Referer: {{hostUri}}
+
+#"result": [
+#    {
+#      "SEC_CODE": "600000",
+#      "SUB_TYPE": "ASH",
+#      "SEC_NAME_FULL": "浦发银行",
+#      "SEC_TYPE": "ES"
+#    }
+#  ],
+
+###
+GET {{queryHostUri}}/commonQuery.do?isPagination=false&sqlId=COMMON_SSE_ZQLX_C&SEC_CODE=600000&_=1672981030567
+Referer: {{hostUri}}
+
+#"result": [
+#    {
+#      "SEC_CODE": "600000",
+#      "SUB_TYPE": "ASH",
+#      "SEC_NAME_FULL": "浦发银行",
+#      "SEC_TYPE": "ES"
+#    }
+#  ],
+
+
+###
+#         http://www.sse.com.cn
+GET {{queryHostUri}}/commonQuery.do?isPagination=false&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_GPGK_GSGK_C&COMPANY_CODE=600000&_=1672981030568
+Referer: {{hostUri}}
+
+#"result": [
+#    {
+#      "A_LIST_DATE": "19991110",
+#      "REG_PROVINCE": "310000",
+#      "STATE_CODE_B_DESC": "-",
+#      "A_STOCK_CODE": "600000",
+#      "COMPANY_ABBR": "浦发银行",
+#      "INVESTOR_PHONE": "63611226",
+#      "IS_VOTE_DIFF": "N",
+#      "STATUS_A": "   D  F  N          ",
+#      "LEGAL_REPRESENTATIVE": "郑杨                          ",
+#      "SECURITY_ABBR_B_FULL": "-",
+#      "SEC_TYPE": "主板A",
+#      "PROFIT_FLAG": "Y",
+#      "SMALL_CLASS_NAME": "-",
+#      "STATE_CODE_A_DESC": "上市",
+#      "CSRC_CODE": "J",
+#      "OTHER_CODE": "110059",
+#      "CSRC_GREAT_CODE": "66",
+#      "COMPANY_CODE": "600000",
+#      "FULL_NAME": "上海浦东发展银行股份有限公司",
+#      "OFFICE_ZIP": "200002",
+#      "SECURITY_ABBR_A_CN": "浦发银行",
+#      "SECURITY_30_DESC": "是",
+#      "E_MAIL_ADDRESS": "SHAzhdjshbgs@spdb.com.cn",
+#      "CSRC_GREAT_CODE_DESC": "货币金融服务",
+#      "COMPANY_ABBR_EN": "SPD BANK",
+#      "FOREIGN_LISTING_ADDRESS": "-",
+#      "FOREIGN_LISTING_DESC": "否",
+#      "CHANGEABLE_BOND_CODE": "110059",
+#      "LIST_BOARD": "1",
+#      "AREA_NAME": "上海市",
+#      "REG_CITY": "310000",
+#      "B_LIST_DATE": "-",
+#      "OTHER_ABBR": "浦发转债",
+#      "SEC_NAME_FULL": "浦发银行",
+#      "WWW_ADDRESS": "http:\/\/www.spdb.com.cn",
+#      "NAME": "谢伟",
+#      "B_STOCK_CODE": "-",
+#      "FULL_NAME_EN": "Shanghai Pudong Development Bank Co.,Ltd.",
+#      "REG_ADDRESS": "上海市黄浦区中山东一路12号",
+#      "CSRC_CODE_DESC": "金融业",
+#      "SECURITY_ABBR_B_CN": "-",
+#      "CHANGEABLE_BOND_ABBR": "浦发转债",
+#      "OFFICE_ADDRESS": "上海市中山东一路12号"
+#    }
+#  ],
+
+###
+GET  {{queryHostUri}}/commonSoaQuery.do?isPagination=true&sqlId=RZRQ_HZ_INFO&pageHelp.pageSize=100&_=1672981030569
+Referer: {{hostUri}}
+
+#"data": [
+#      {
+#        "rzye": 764779384596,
+#        "rqylje": 58350501542,
+#        "rqyl": 6917985699,
+#        "rzmre": 26348490112,
+#        "rzche": 25987968902,
+#        "rzrqjyzl": 823129886138,
+#        "opDate": "20230105",
+#        "rqmcl": 452755366
+#      },
+#...
+#]
+
+###
+#大宗交易统计
+GET {{queryHostUri}}/commonQuery.do?isPagination=true&pageHelp.pageSize=5&pageHelp.pageNo%3A=1&pageHelp.beginPage=1&pageHelp.endPage=1&pageHelp.cacheSize=1&sqlId=COMMON_SSE_XXPL_JYXXPL_DZJYXX_L_1&stockId=600000&startDate=&endDate=&pageHelp.pageNo=1&_=1672981030570
+Referer: {{hostUri}}
+
+#branchsell 卖出营业部
+#tradeamount 成交金额（万元）
+#abbrname 查询的股票名
+#tradedate 交易日期
+#tradeqty 成交量（万股/份）
+#ifZc 是否为专场
+#NUM 索引号
+#stockid 股票代码
+#branchbuy 买入营业部
+#tradeprice 成交价
+
+
+#"data": [
+#      {
+#        "branchsell": "机构专用",
+#        "tradeamount": "499.3",
+#        "abbrname": "浦发银行",
+#        "tradedate": "2022-12-28",
+#        "tradeqty": "68.68",
+#        "ifZc": "否",
+#        "NUM": "1",
+#        "stockid": "600000",
+#        "branchbuy": "华泰证券股份有限公司总部",
+#        "tradeprice": "7.27"
+#      },
+#...
+#]
+
+###
+#一些文件
+GET {{queryHostUri}}/security/stock/queryCompanyBulletinNew.do?isPagination=true&pageHelp.pageSize=10&pageHelp.cacheSize=1&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.endPage=1&START_DATE=&END_DATE=&SECURITY_CODE=600000&TITLE=&BULLETIN_TYPE=&_=1672981030571
+Referer: {{hostUri}}
+
+#"data": [
+#      [
+#        {
+#          "BULLETIN_TYPE_DESC": "可转换公司债",
+#          "BULLETIN_YEAR": "2023",
+#          "IS_HOLDER_DISCLOSE": "0",
+#          "ORG_BULLETIN_ID": "8247463255524915",
+#          "ORG_FILE_TYPE": 0,
+#          "SECURITY_CODE": "600000",
+#          "SECURITY_NAME": "浦发银行",
+#          "SSEDATE": "2023-01-05",
+#          "TITLE": "上海浦东发展银行股份有限公司关于可转债转股结果暨股份变动公告",
+#          "URL": "\/disclosure\/listedinfo\/announcement\/c\/new\/2023-01-05\/600000_20230105_CQ76.pdf"
+#        }
+#      ],
+#...
+#]
+
+###
+# 一些监管文件说明
+# {{queryHostUri}}/commonSoaQuery.do?isPagination=true&pageHelp.pageSize=5&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=1&extTeacher=&extWTFL=&siteId=28&sqlId=BS_KCB_GGLL&extGGLX=&channelId=10743%2C10744%2C10012&extGGDL=&order=createTime%7Cdesc%2Cstockcode%7Casc&type=&stockcode=600000&createTime=&createTimeEnd=&_=1672981030573
+GET {{queryHostUri}}/commonSoaQuery.do?isPagination=true&pageHelp.pageSize=5&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=1&extTeacher=&extWTFL=&siteId=28&sqlId=BS_KCB_GGLL&extGGLX=&channelId=10007%2C10008%2C10009%2C10010&extGGDL=&order=createTime%7Cdesc%2Cstockcode%7Casc&type=&stockcode=600000&createTime=&createTimeEnd=&_=1672981030572
+Referer: {{hostUri}}
+
+###
+# 股东大会什么的
+GET {{queryHostUri}}/commonSoaQuery.do?isPagination=true&pageHelp.pageSize=5&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=1&sqlId=PL_SCRL_SCRLB&order=tradeBeginDate%7Cdesc&stockCode=600000&tradeBeginDate=19700101&tradeEndDate=20230106&_=1672981030576
+Referer: {{hostUri}}
+
+#"data": [
+#      {
+#        "summary": "",
+#        "bizType": "2",
+#        "tradeEndDate": "20221111",
+#        "subTypeDesc": "",
+#        "updateTime": "20221111",
+#        "stockAbbr": "浦发银行",
+#        "title": "浦发银行2022年第三季度业绩说明会(15:00-16:00)",
+#        "stockCode": "600000",
+#        "content": "",
+#        "controlType": "",
+#        "bizTypeDesc": "路演信息",
+#        "bizSeq": "11624",
+#        "tradeBeginDate": "20221111",
+#        "ext3": "",
+#        "ext2": "",
+#        "ext1": ""
+#      },
+#...
+#]
+
+###
+GET {{queryHostUri}}/commonSoaQuery.do?isPagination=true&pageHelp.pageSize=5&pageHelp.pageCount=5&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=1&token=QUERY&sqlId=JYGKXX_ZL&branchName=&refType=&secCode=600000&tradeDateStart=2017-01-01&tradeDateEnd=2023-01-06&_=1672981030577
+Referer: {{hostUri}}
+
+#"data": [
+#      {
+#        "secRank": 1,
+#        "secTxVolume": "49925359",
+#        "secValue": "62.86",
+#        "abnormalStart": "20171110",
+#        "secCode": "600000",
+#        "secTxAmount": "626756843.00",
+#        "refType": "41",
+#        "secAbbr": "浦发银行",
+#        "secType": "",
+#        "tradeDate": "20171110",
+#        "abnormalEnd": "20171110"
+#      },
+#...
+#]
+
+###
+# 这个应该是行情指标
+GET http://yunhq.sse.com.cn:32041/v1/sh1/snap/600000?callback=jsonpCallback70283598&select=name,last,chg_rate,change,amount,volume,open,prev_close,ask,bid,high,low,tradephase,turnover_ratio,totalValue,amp_rate,circulating,up_limit,down_limit,hlt_tag,gdr_ratio,gdr_prevpx,gdr_currency&_=1672981030578
+Referer: {{hostUri}}
+
+
+###
+GET http://query.sse.com.cn/commonQuery.do?jsonCallBack=jsonpCallback8064647&isPagination=false&ISS_FLAG=1%2C2&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_CZQK_AGKCBZFSF_S&COMPANY_CODE=600000&LIST_BOARD=1&type=inParams&_=1672981030579
+
+# 我测试时失败了
+#[{
+#  "ISS_PE": "-",
+#  "SEC_CODE": "600000",
+#  "ISS_TYPE_DESC": "股票定向增发（资金认购）",
+#  "COMPANY_ABBR": "浦发银行",
+#  "RAISE_CAP": "1482999.9996",
+#  "ISS_PRICE": "11.88",
+#  "INVESTOR_VOL": "0.0",
+#  "ISS_TYPE": "S06",
+#  "LIST_DATE": "20170908",
+#  "ISS_DATE": "20170904",
+#  "COMPANY_CODE": "600000",
+#  "ISS_VOL": "124831.65",
+#  "ISS_FLAG": "2"
+#},...
+#]
+
+###
+GET http://query.sse.com.cn/commonQuery.do?jsonCallBack=jsonpCallback93877475&isPagination=false&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_CZQK_AGKCBPG_S&COMPANY_CODE=600000&LIST_BOARD=1&_=1672981030580
+Referer: {{hostUri}}
+# 没有数据
+
+###
+GET http://query.sse.com.cn/commonQuery.do?jsonCallBack=jsonpCallback36753031&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_CJGK_MRGK_C&SEC_CODE=600000&TX_DATE=&TX_DATE_MON=&TX_DATE_YEAR=&_=1672981030581
+Referer: {{hostUri}}
+
+#"result": [
+#    {
+#      "CLOSE_PRICE": "7.35",
+#      "LOW_VOL_DATE": "20230105",
+#      "LOW_AMT": "22161.74",
+#      "SEC_CODE": "600000",
+#      "HIGH_PRICE": "7.38",
+#      "HIGH_AMT": "22161.74",
+#      "HIGH_PRICE_DATE": "20230105",
+#      "HIGH_VOL_DATE": "20230105",
+#      "HIGH_VOL": "3016.22",
+#      "TOTAL_VALUE": "21573848.45",
+#      "SWING_RATE": "1.09589",
+#      "LOW_AMT_DATE": "20230105",
+#      "TX_DATE": "20230105",
+#      "SEC_NAME": "浦发银行",
+#      "LOW_PRICE_DATE": "20230105",
+#      "TO_RATE": "0.1",
+#      "CHANGE_PRICE": "0.04",
+#      "ACCU_TRADE_DAYS": "0",
+#      "TRADE_AMT": "22161.74",
+#      "LOW_PRICE": "7.3",
+#      "DATE_TYPE": "D",
+#      "TRADE_VOL": "3016.22",
+#      "LOW_VOL": "3016.22",
+#      "CHANGE_RATE": "0.5472",
+#      "NEGO_VALUE": "21573848.45",
+#      "HIGH_AMT_DATE": "20230105",
+#      "OPEN_PRICE": "7.37",
+#      "PE_RATE": "4.07031"
+#    }
+#  ],
+
+###
+http://query.sse.com.cn/commonQuery.do?jsonCallBack=jsonpCallback70890464&isPagination=true&sqlId=COMMON_SSE_SJ_GPSJ_SRBX_L&COMPANY_CODE=600000&END_DATE=&START_DATE=&_=1672981030582
+Referer: {{hostUri}}
+# 没有数据
+
+###
+http://query.sse.com.cn/commonQuery.do?jsonCallBack=jsonpCallback94816150&isPagination=true&pageHelp.pageSize=5&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=1&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_LRFP_FH_L&COMPANY_CODE=600000&IS_STAR=0&CONDITION_ZBB=1&CONDITION_ZBA=&_=1672981030583
+Referer: {{hostUri}}
+# no data
+
+###
+http://query.sse.com.cn/commonQuery.do?jsonCallBack=jsonpCallback98053250&isPagination=true&pageHelp.pageSize=5&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=1&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_LRFP_SG_L&COMPANY_CODE=600000&IS_STAR=0&_=1672981030584
+Referer: {{hostUri}}
+# nodata
+
+###
+GET {{queryHostUri}}/commonQuery.do?isPagination=true&pageHelp.pageSize=5&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=1&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_LRFP_FH_L&IS_STAR=0&CONDITION_ZBA=1&CONDITION_ZBB=&COMPANY_CODE=600000&_=1672981030585
+Referer: {{hostUri}}
+
+# "result": [
+#    {
+#      "A_BEFR_TAX_DIV": "0.41",
+#      "ISSUE_VOL": "2935217.3289",
+#      "B_BEFR_TAX_DIV": "-",
+#      "A_STOCK_CODE": "600000",
+#      "COMPANY_ABBR": "浦发银行",
+#      "EXCHANGE_RATE": "6.7503",
+#      "A_DIV_DATE": "20220721",
+#      "NUM": "1",
+#      "A_REG_DATE": "20220720",
+#      "B_STOCK_CODE": "-",
+#      "B_REG_DATE": "-",
+#      "B_STOCK_VOL": "-",
+#      "COMPANY_CODE": "600000",
+#      "FULL_NAME": "上海浦东发展银行股份有限公司",
+#      "B_DIV_TOT": "-",
+#      "OPEN_PRICE": "7.4",
+#      "A_DIV_TOT": "1203439.1",
+#      "A_AFTR_TAX_DIV": "0.41",
+#      "B_AFTR_TAX_DIV": "-",
+#      "PRE_CLOSE_PRICE": "7.38",
+#      "A_STOCK_VOL": "2935217.33",
+#      "B_DIV_DATE": "20220721"
+#    }
+#  ],
+
+###
+GET {{queryHostUri}}/commonQuery.do?isPagination=false&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_GPGK_GBJG_C&COMPANY_CODE=600000&_=1672981030586
+Referer: {{hostUri}}
+
+#"result": [
+#    {
+#      "TOTAL_DOMESTIC_VOL": "2935217.48",
+#      "A_LIMIT_VOL": "0.00",
+#      "TRADE_DATE": "20230105",
+#      "B_VOL": "0.00",
+#      "SPECIAL_VOL": "-",
+#      "TOTAL_UNLIMIT_VOL": "2935217.48",
+#      "A_UNLIMIT_VOL": "2935217.48",
+#      "CDR_VOL": "0.00"
+#    }
+#  ],
+
+###
+GET {{queryHostUri}}/commonSoaQuery.do?isPagination=true&pageHelp.pageSize=5&pageHelp.pageCount=50&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=1&sqlId=RZRQ_MX_INFO&beginDate=20230105&endDate=20230105&preStockCode=600000&_=1672981030588
+Referer: {{hostUri}}
+
+#"result": [
+#    {
+#      "rzye": 3308081421,
+#      "securityAbbr": "浦发银行",
+#      "rqchl": 112900,
+#      "rw": 1,
+#      "rqyl": 1242894,
+#      "rzmre": 5679180,
+#      "rzche": 15304829,
+#      "opDate": "20230105",
+#      "rqmcl": 371700,
+#      "stockCode": "600000"
+#    }
+#  ],
+
+
+###
+# 这个应该是具体的数据
+http://yunhq.sse.com.cn:32041/v1/sh1/line/600000?select=time%2Cprice%2Cvolume%2Cavg_price%2Camount%2Chighest%2Clowest&_=1672981030589
+Referer: {{hostUri}}
